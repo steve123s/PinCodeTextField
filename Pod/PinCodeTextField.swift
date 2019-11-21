@@ -119,7 +119,7 @@ import UIKit
     
     @discardableResult override public func resignFirstResponder() -> Bool {
         delegate?.textFieldDidEndEditing(self)
-        return super.resignFirstResponder()
+        return true
     }
     
     //MARK: Private
